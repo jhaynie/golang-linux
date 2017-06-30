@@ -4,6 +4,7 @@ Use the latest official Golang Docker image but this image adds cmake so you can
 
 ## Usage
 
+```shell
 docker run --rm -v "$PWD":/go/bin jhaynie/golang-linux go get github.com/yourname/yourrepo
 ```
 
